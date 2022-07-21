@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset = "utf-8">
-        <title>a</title>
+        <title>眠龙勿扰集团有限公司</title>
     </head>
     <body>
         <p id = "pl"></p>
@@ -80,8 +80,24 @@
                     lagName = "默认英文";
             }
             
-            document.write("<h3>系统："+sysName+"<br/>语言："+lagName+"</h3>");
-        
+            if(lagName == "韩文"){
+                alert("不支持韩文");   
+            }
+            else if(lagName == "日文"){
+                alert("不支持日文");    
+            }
+            else if(lagName == "默认英文"){
+                alert("不支持英文或者其他语言");    
+            }
+            else if(lagName == "中文"){
+                if(sysName == "Mac"){
+                    location.href = "https://franciswizard.github.io/company/mac";    
+                }
+                else
+                {
+                    location.href = "https://franciswizard.github.io/company/index";
+                }
+            }
             //location.href = theUrl;
         </script>
     </body>
