@@ -1,0 +1,56 @@
+.on {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    color: #4a17f1;
+    text-align: left;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.bigtitle {
+    color: #4a17f1;
+}
+
+.big {
+    font-size: 40px;
+}
+
+.kt {
+    font-family: 楷体-简;
+}
+
+.xk {
+    font-family: 行楷-简;
+}
+
+.st {
+    font-family: 宋体-简;
+}
+
+.fs {
+    font-family: 仿宋-简;
+}
+
+.white {
+    color: white;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.en {
+    font-family: "Times New Roman";
+}
