@@ -10,3 +10,18 @@
             text-decoration: none;
             display: inline-block;
         }
+a.title-button-to-other:link,
+        a.title-button-to-other:visited {
+            display: inline-block;
+            color: white;
+            background-color: blue;
+            text-decoration: none;
+            width: 170px;
+            text-align: center;
+            padding: 35px;
+        }
+        
+        a.title-button-to-other:hover,
+        a.title-button-to-other:active {
+            background-color: blueviolet;
+        }
