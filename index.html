@@ -17,6 +17,12 @@
             position: relative;
             width: 500px;
         }
+        .bigtitle
+        {
+            text-align:center;
+            font-size:100px;
+            color:red;
+        }
     </style>
     <script>
         window.onload=function(){
@@ -48,7 +54,7 @@
             h=check(h);
             m=check(m);
             s=check(s);
-            document.getElementById("box").innerHTML = year+"年"+month+"月"+date+"日"+week[d]+h+":"+m+":"+s;    
+            document.getElementById("box").innerHTML = year+"年 "+month+"月 "+date+"日 "+week[d]+h+":"+m+":"+s+"";    
             setTimeout(showTime,500);
         }
         </script>
